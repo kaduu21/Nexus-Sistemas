@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,260;1,14..32,260&display=swap');
+
+*{
+    font-family: "inter";
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11%;
+}
+
+footer{
+    background-color: rgb(255, 84, 50);
+    padding: 30px;
+    margin-top: 67px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul a li img{
+    width: 25px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul a li{
+    display: inline-block;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav img{
+    width: 55px;
+}
+
+#logo{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 100px;
+}
+
+#bottom-bar{
+    background-color: rgb(224, 224, 224);
+    padding: 25px;
+}
+
+#cabecalho-elements{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+#background{
+    width: 100%;
+    height: 115vh 0;
+    padding: 100px 0;
+    margin-top: -100px;
+    background-size: cover;
+}
+
+#nav-end{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    margin-top: 2%;
+    margin-right: 100px;
+    justify-content: space-evenly;
+}
+
+.background-system{
+    background-color: rgb(236, 236, 236);
+}
+
+.titulo-danger{
+    background-color: rgb(255, 100, 100);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 2%;
+    padding-right: 400px;
+}
+
+.ocorrencia-danger{
+    background-color: rgb(255, 193, 193);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.mb-3{
+    margin-bottom: 30px;
+}
+
+.mb-2{
+    margin-bottom: 20px;
+}
+
+.mb-1{
+    margin-bottom: 10px;
+}
+
+.ml-4{
+    margin-left: 80px;
+}
+
+.ml-6{
+    margin-left:150px;
+}
+
+.mt-1{
+    margin-top: 10px;
+}
+
+.local-ocorrencia{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+
+}
+
+.img-nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-right: 150px;
+    justify-content: space-evenly;
+}
+
+.flex-line{
+    display: flex;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-start{
+    display: flex;
+    justify-self: flex-start;
+}
+
+.flex-final{
+    display: flex;
+    justify-self: flex-end;
+}
+
+.form-login{
+    padding: 10px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+}
+
+.flex-self-start{
+    justify-content: flex-start;
+}
+
+.flex-self-end{
+    justify-self: flex-end;
+}
+
+.login-popup{
+    z-index: 1;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-evenly;
+    padding: 30px;
+    height: 350px;
+    border-radius: 20px;
+    margin-left: 33%;
+    margin-top: 11%;
+
+}
+
+.btn-danger{
+    background-color: rgb(255, 84, 50);
+    width: 90px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 10px;
+    float: none;
+}
+
+.btn-safe{
+    background-color: rgb(110, 255, 238);
+    width: 90px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn-safe-login{
+    background-color: rgb(110, 255, 238);
+    width: 90px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    float: inline-end;
+    margin-top: 20px;
+}
+
+.img-exem{
+    width: 700px;
+    margin-top: -65px;
+    float: inline-end;
+    transform: rotate(1deg);
+    border-radius: 10px;
+}
+
+.tex-lateral{
+    width: 20%;
+    margin-left: 100px;
+}
+
+.img-lateral{
+    width: 10%;
+    margin-right: 10px;
+}
+
+.normal-link{
+    text-decoration:underline;
+    color: blue;
+    justify-self: flex-end;
+}
+
+.perfil{
+    width: 105px;
+}
+
+.colunas{
+    margin-top: -100px;
+    display: flex;
+}
+
+.aluno-perfil-popup{
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    z-index: 1;
+}
+
+.aluno-acoes-popup{
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 150px;
+    z-index: 0;
+}
