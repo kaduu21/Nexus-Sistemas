@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/nexuscss.css">
+    <link rel="shortcut icon" href="assets/favicon/Nexus-BO.png" type="image/x-icon">
+    <title>Nexus Sistemas</title>
+</head>
+<body> 
+
+    <style>
+        body {
+            background-image: url('assets/backgrounds/escritas.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+
+    <header id="cabecalho-elements" class="background-system">
+        <div id="logo">
+            <h2>Nexus Sistemas</h2>
+        </div>
+        <nav class="img-nav">
+            <a href="config.html">
+                <img src="assets/icons/configuração.png" alt="">
+            </a>
+        </nav>
+    </header>
+    <div id="bottom-bar-fun">
+        <div>
+            <a href="#"><img class="add-btn" src="assets/icons/add.png" alt="adicionar"></a>
+        </div>
+    </div>
+
+    <main>
+        <!--local onde podera ser escolhido o modelo provavelmente usa JS :P-->
+        <div class="add-ocor has-shadow">
+           <div><h2 class="no-poiter">Criação de ocorrência.</h2></div>
+                <div>
+                    <div class="flex-line mt-2 no-poiter">
+                        <p>Disciplina:</p> <div class="btn-ocor-white flex-line"><p>Português</p><img class="img-btn" src="assets/icons/seta-baixo.png" alt=""></div>
+                        <p class="ml-1">Ano:</p><div class="btn-ocor-white flex-line"><p>6° Ano, F.</p><img class="img-btn" src="assets/icons/seta-baixo.png" alt=""></div>
+                        <p class="ml-1">Turno:</p><div class="btn-ocor-safe flex-line"><p>Manhã</p><img class="img-btn" src="assets/icons/switch.png" alt=""></div>
+                    </div>
+                    
+                    <div class="mt-2 no-poiter"><p>Título da ocorrência.</p></div>
+                    <div class="flex-line">
+                        <input type="text" class="input-tittle">
+                        <p class="no-poiter" style="margin-top: 8px; margin-left: 4px;">Gravidade:</p>
+                        
+                        <div class="grav-background">
+                            <div class="grav-safe"></div>
+                            <div class="grav-medium"></div>
+                            <div class="grav-danger"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="no-poiter mt-2"><p>Descrição.</p></div>
+                    <div>
+                        <textarea class="big-input" name="descrição" id="descricao" rows="4" cols="50"></textarea>
+                        <input class="enviar-btn" type="submit" value="Enviar ->">
+                    </div>
+                </div>
+        </div>
+    </main>
+</body>
