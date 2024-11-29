@@ -7,12 +7,11 @@ CREATE TABLE usuarios (
 );
 
 CREATE TABLE alunos (
-    matricula VARCHAR(15) NOT NULL,
+    matricula INT(11) NOT NULL AUTO_INCREMENT,
     idade INT NOT NULL,
     sexo CHAR(1) NOT NULL,
     turma VARCHAR(50) NOT NULL,
     curso VARCHAR(50) NOT NULL,
-    criado_em DATETIME NOT NULL DEFAULT CURRENT_TIME,
     nomeUsuario VARCHAR(15) NOT NULL,
     CONSTRAINT FK_usuarios_alunos FOREIGN KEY (nomeUsuario) REFERENCES usuarios (nomeUsuario),
     PRIMARY KEY (matricula)
@@ -20,11 +19,10 @@ CREATE TABLE alunos (
 
 
 CREATE TABLE funcionarios (
-    matricula VARCHAR(15) NOT NULL,
+    matricula INT(11) NOT NULL AUTO_INCREMENT,
     idade INT NOT NULL,
     sexo CHAR(1) NOT NULL,
     graduacao VARCHAR(50) NOT NULL,
-    criado_em DATETIME NOT NULL,
     nomeUsuario VARCHAR(15) NOT NULL,
     CONSTRAINT FK_usuarios_funcionarios FOREIGN KEY (nomeUsuario) REFERENCES usuarios (nomeUsuario),
     PRIMARY KEY (matricula)
@@ -45,3 +43,6 @@ CREATE TABLE ocorrencias (
     matricula VARCHAR(15) NOT NULL,
     ID INTEGER NOT NULL AUTO_INCREMENT,
 );
+
+/* INSERT INTO usuarios (nomeUsuario, nome, email, senha) VALUES ("U1", "Bocchi", "mewhen@doggin.com", "therock"); */
+/* INSERT INTO usuarios (nomeUsuario, nome, email, senha) VALUES ("U2", "Miaw", "dingus@cattin.com", "gatinholegal"); */

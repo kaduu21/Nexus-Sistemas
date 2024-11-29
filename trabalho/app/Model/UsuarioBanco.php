@@ -23,16 +23,32 @@ class UsuarioBanco {
         return $stmt -> fetchAll(PDO::FETCH_ASSOC);
     }
 
-    public function cadastrar($nome, $email, $senha) {
-        $sql = "INSERT INTO usuarios (nome, email, senha) VALUES (:n, :e, :s)";
-
+    public function cadastrar($nomeUsuario, $nome, $email, $senha, $idade, $sexo, $graduacao) {
+        // $nomeUsuario, nomeUsuario, :nU
+        $sql = "INSERT INTO usuarios (nomeUsuario, nome, email, senha) VALUES (:nU, :n, :e, :s)";
+       
         $stmt = $this->pdo->prepare($sql);
 
+        $stmt -> bindValue("nU", $nomeUsuario);
         $stmt -> bindValue("n", $nome);
         $stmt -> bindValue("e", $email);
         $stmt -> bindValue("s", $senha);
 
-        return $stmt -> execute();
+         $stmt -> execute();
+
+        $sql = "INSERT INTO funcionarios (idade, sexo, graduacao, nomeUsuario) VALUES (:id, :se, :gr, :nU)";
+
+        $stmt = $this->pdo->prepare($sql);
+
+        $stmt -> bindValue("id", $idade);
+        $stmt -> bindValue("se", $sexo);
+        $stmt -> bindValue("gr", $graduacao);
+        $stmt -> bindValue("nU", $nomeUsuario);
+        
+
+        $stmt -> execute();
+
+        return;
     }
 
     public function atualizar($nomeUsuario, $nome, $email, $senha) {

@@ -19,6 +19,7 @@
     </style>
 
     <!--cria local do login-->
+    <form action="/index.php?acao=cadastrar" method="POST">
     <div class="login-popup has-shadow espaco-ex">
         <h2 class="mb-2 text-center no-poiter">
             Cadrastrar
@@ -28,15 +29,37 @@
         </p>
 
         <!--insirir dados do usuario-->
+
+        <label>Nome do usuario (ID)</label>
+        <input class="mb-1 form-login" type="text" name="nomeUsuario"> 
+
         <label>Nome</label>
-        <input class="mb-2 form-login" type="text" name="nome">
+        <input class="mb-1 form-login" type="text" name="nome">
 
         <label>Email</label>
-        <input class="mb-2 form-login" type="email" name="email">
+        <input class="mb-1 form-login" type="email" name="email">
 
         <label>Senha</label>
         <input class="mb-1 form-login" type="password" name="senha">
         
+        <label>Idade</label>
+        <input class="mb-1 form-login" type="text" name="idade">
+        
+    <div>
+        <p>Sexo:</p>
+        <label>
+            <input type="radio" name="sexo" value="M">
+                Masculino
+        </label>
+        <label>
+            <input type="radio" name="sexo" value="F">
+                Feminino
+        </label>
+    </div>    
+        
+        <label>Graduação</label>
+        <input class="mb-1 form-login" type="text" name="graduacao">
+
         <!--criar uma linha reta com opções-->
 
         <!--botão de logar, provavelmente deveria ser um buttom não uma div-->

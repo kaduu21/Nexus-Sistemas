@@ -6,7 +6,7 @@ class ValidarUsuario{
       
     return $usuario->verificarExistencia($_POST["nomeUsuario"], $_POST["senha"]); 
     /* $_POST["email"], */
-    // return $usuario->listarTudo();
+    // $usuario->listarTudo();
     // return $usuario->excluir("U3");
     }
 }
