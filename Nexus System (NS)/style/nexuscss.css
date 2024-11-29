@@ -322,7 +322,6 @@ span h1{
     width: 30%;
     justify-content: space-evenly;
     padding: 30px;
-    height: 350px;
     border-radius: 20px;
     margin-left: 33%;
     margin-top: 11%;
@@ -568,7 +567,7 @@ span h1{
 
 .espaco-ex{
     margin-top: 120px;
-    padding-bottom: 90px;
+    padding-bottom: 70px;
 }
 
 .square-tittle{
