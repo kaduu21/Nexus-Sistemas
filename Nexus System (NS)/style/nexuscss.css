@@ -143,6 +143,10 @@ span h1{
     background-color: rgb(238, 238, 238);
 }
 
+.background-system2{
+    background-color: rgb(192, 192, 192);
+}
+
 .larg-ocor{
     padding-right: 650px;
 }
@@ -364,6 +368,16 @@ span h1{
 
 .btn-safe-login{
     background-color: #399dce;
+    width: 90px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    float: inline-end;
+    margin-top: 20px;
+}
+
+.btn-danger-login{
+    background-color: #ff914d;
     width: 90px;
     padding: 10px;
     text-align: center;
@@ -600,4 +614,53 @@ span h1{
 .border-brl{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.grav-background{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-around;
+    width: 90px;
+    margin-left: 5px;
+}
+
+.grav-safe{
+    background-color: #00ccd5;
+    padding: 10px;
+    height: 1px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.grav-medium{
+    background-color: #ffee00;
+    padding: 10px;
+    height: 1px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.grav-danger{
+    background-color: #ff914d;
+    padding: 10px;
+    height: 1px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.error-body{
+    background-color: #9e9e9e;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.error-top{
+    width: 820px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.img-error{
+    width: 45px;
+    margin-right: 10px;
 }
