@@ -1,0 +1,13 @@
+<?php
+
+class Coordenador extends Funcionario {
+    private string $area_atuacao;
+
+    public function setAreaAtuacao($area_atuacao) {
+        $this->area_atuacao = $area_atuacao;
+    }
+
+    public function getAreaAtuacao() {
+        return $this->area_atuacao;
+    }
+}

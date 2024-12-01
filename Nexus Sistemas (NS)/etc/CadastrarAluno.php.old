@@ -1,0 +1,11 @@
+<?php
+/*
+nn funciona
+class CadastrarAluno {
+    public function retornar() {
+        $cadastroA = new UsuarioBanco();
+
+        $cadastroA->cadastrarAluno($_POST["nomeUsuario"], $_POST["nome"], $_POST["email"], $_POST["senha"], $_POST["idade"], $_POST["sexo"], $_POST["turma"], $_POST["curso"]);
+        
+    }
+} */

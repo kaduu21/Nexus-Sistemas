@@ -1,0 +1,15 @@
+<?php
+/*
+nn funciona
+class ListarUsuarios {
+    public function retornar() {
+        $listarUsuarioPorUsername = new UsuarioBanco();
+
+        return $listarUsuarioPorUsername->listarUsuarioPorUsername();
+
+    }
+};
+
+$teste = listarUsuarioPorUsername();
+
+*/
