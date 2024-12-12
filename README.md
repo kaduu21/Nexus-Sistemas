@@ -1,4 +1,4 @@
-# Nexus-Sistemas
+# Nexus-Sistemas (DESCONTINUADO)
 Sistema de relatório de alunos (trabalho escolar)
 
 Trabalho feito por 2 pessoas em aprendizado, logo não será perfeito… mas tentamos.
